@@ -1,0 +1,1 @@
+Run 'docker-compose up -d --build' to initilize the server
