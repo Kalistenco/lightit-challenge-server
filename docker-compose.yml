@@ -14,8 +14,8 @@ services:
     environment:
       MYSQL_DATABASE: patientsdb
       MYSQL_USER: admin
-      MYSQL_PASSWORD: fuck123
-      MYSQL_ROOT_PASSWORD: fuck123
+      MYSQL_PASSWORD: mrt1234
+      MYSQL_ROOT_PASSWORD: mrt1234
       SERVICE_TAGS: prod
       SERVICE_NAME: mysqldb
     networks:
@@ -34,7 +34,7 @@ services:
     environment:
       DB_HOST: mysqldb
       DB_USER: admin
-      DB_PASSWORD: 'fuck123'
+      DB_PASSWORD: 'mrt1234'
       DB_NAME: patientsdb
       DB_PORT: 3308   
       DB_CONNECTION_LIMIT: 10
